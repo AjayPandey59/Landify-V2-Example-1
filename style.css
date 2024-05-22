@@ -11,8 +11,9 @@
     --ExtraBold: 800;
     --Black: 900;
     --Primary-600: #7C3AED;
-    --Neutral-900: #111827;
+    --Nuetral-200: #E5E7EB;
     --Neutral-700: #374151;
+    --Neutral-900: #111827;
 }
 
 * {
@@ -84,10 +85,12 @@
     justify-content: space-between;
     position: relative;
 }
-.card1{
+
+.card1 {
     width: 55%;
     margin-bottom: 3%;
 }
+
 .head {
     font-weight: var(--Bold);
     font-size: 60px;
@@ -100,7 +103,8 @@
     font-size: 18px;
     margin: 25px 0;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,7 +112,7 @@
     margin: 25px 0;
 }
 
-.button a{
+.button a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -120,19 +124,37 @@
     text-decoration: none;
 }
 
-#but1{
+#but1 {
     background-color: var(--Primary-600);
     color: white;
 }
-#but2{
+
+#but2 {
     color: var(--Primary-600);
 }
+
 .iphone {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.iphone img{
+.iphone img {
     max-height: 100%;
+}
+
+.logo-card{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.divider{
+    border-color: var(--Nuetral-200);
+}
+
+.logos{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
 }
